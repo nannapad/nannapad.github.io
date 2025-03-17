@@ -31,6 +31,6 @@ class Sort{
 let mySort = new Sort();
 let data = [29, 10, 14, 37, 13];
 console.log("---Quick Sort---");
-console.log("Before Sort: ", data);
+console.log("Before Sort: ",+data);
 let quickSort = mySort.quickSort(data);
-console.log("After Sort: ", quickSort);
+console.log("After Sort: ",+quickSort);
